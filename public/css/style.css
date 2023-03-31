@@ -1,5 +1,11 @@
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+header, .post:not(:last-child) {
+  background-color: rgb(87, 72, 202);
+  height: 80px;
+}
+
+h1 {
+  background-color: rgb(87, 72, 202);
+  padding-bottom: 20px;
 }
 
 .no-button {
@@ -7,13 +13,13 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #424242;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #8a8a8a;
   text-decoration: underline;
 }
 
@@ -22,3 +28,26 @@ header, .project:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+
+nav {
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+}
+
+a {
+  color: rgb(70, 70, 70);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: rgb(90, 90, 90);
+}
+
+.logout {
+  margin-left: 10px;
+}
+
